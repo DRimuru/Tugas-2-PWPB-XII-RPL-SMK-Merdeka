@@ -1,0 +1,20 @@
+# Tugas-2-PWPB-XII-RPL-SMK-Merdeka
+
+<?php
+$buah = 'Durian';
+
+switch ($buah)
+{
+  case 'Melon' :
+    echo 'Buah ' . $buah . ', sangat manis';
+    break;
+  case 'Mangga' :
+    echo 'Buah ' . $buah . ', sangatlah asam';
+    break;
+  case 'Durian':
+    echo 'Buah ' . $buah . ', sangat manis sekali';
+    break;
+  default : 
+    echo 'Buah ' . $buah . ', belum masuk dalam kategori';
+}
+?>
